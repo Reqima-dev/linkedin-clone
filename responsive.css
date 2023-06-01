@@ -1,0 +1,78 @@
+@media screen and (max-width: 1115px) {
+  header nav a span {
+    display: none;
+  }
+  header nav {
+    gap: 50px;
+  }
+  header nav a img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container .center {
+    width: 450px;
+  }
+  .postImage {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container aside.profile {
+    display: none;
+  }
+  .container .center {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 915px) {
+  header nav {
+    gap: 30px;
+  }
+  header nav a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    padding: 8px 35px;
+  }
+  header .search_bar {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container .tendances {
+    display: none;
+  }
+  .container .center {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 640px) {
+  header .search_bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 432px) {
+  .reaction div span {
+    font-size: 10px;
+  }
+  .reaction_Pub li.pict_Reaction img {
+    width: 15px;
+    height: 15px;
+  }
+  .reaction_Pub li {
+    font-size: 10px;
+  }
+
+  .reaction_Pub li.picture_Pub img:nth-child(2) {
+    width: 10px;
+  }
+  .contentPub p {
+    font-size: 13px;
+  }
+}
